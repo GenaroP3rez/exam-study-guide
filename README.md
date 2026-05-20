@@ -1,4 +1,4 @@
-# midterm-220-study-guide
+# exam-study-guide
 
 # READ INSTRUCTIONS BEFORE STARTING
 
