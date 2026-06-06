@@ -23,13 +23,20 @@ public class MidtermPractice {
     public static String findLongestWord(List<String> list) {
         //return "";
 
-        for ( string ){
-            String > string 
+        // for ( string ){
+        //     String > string 
+        // }
+        // return string; 
+
+        public static String findLongestWord(List<String> list){
+           String longest = "";
+
+           for (String word : list){
+            longest = word;
+           }
         }
-        return string; 
-
-
-    }
+        return longest;
+    } 
 
     /**
      * Counts how many words are longer than 5 characters in the keys of a Map.
