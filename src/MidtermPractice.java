@@ -7,6 +7,9 @@ public class MidtermPractice {
         // After implementing a method, call it here with
         // some sample input and print the result to
         // check if it works. Fix any issues you find.
+
+
+
     }
 
     /**
@@ -15,8 +18,17 @@ public class MidtermPractice {
      * @return the longest word in the list
      * Example: input: ["apple", "banana", "kiwi"] -> output: "banana"
      */
+
+
     public static String findLongestWord(List<String> list) {
-        return "";
+        //return "";
+
+        for ( string ){
+            String > string 
+        }
+        return string; 
+
+
     }
 
     /**
