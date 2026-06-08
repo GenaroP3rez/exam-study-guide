@@ -63,7 +63,17 @@ public class MidtermPractice {
      * Example: input: [1.5, 3.5, 2.0, 3.0] -> output: 2.5
      */
     public static double findAverage(float[] arr) {
-        return -1.0;
+       if (arr.length == 0){
+        return 0.0;
+       }
+       double sum = 0.0;
+
+
+       for (float num : arr){
+
+        sum += num; 
+       }
+       return sum;
     }
 
     /**
@@ -73,8 +83,18 @@ public class MidtermPractice {
      * Example: input: {"a"=7, "x"=4, "z"=5} -> output: 2
      */
     public static int countOddNumbers(Map<String, Integer> map) {
-        return -1;
-    }
+        //return -1;
+
+        public static int countOddNumberes(Map<String, Integer> map){
+            for int count = 0; 
+
+            for (int num % 2 != 0){
+                if (num % 2 != 0){
+                    count++;
+                }
+            }
+            return count; 
+        }
 
     /**
      * Returns true if all values are divisible by 3 in an array.
