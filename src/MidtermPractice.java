@@ -150,7 +150,23 @@ public class MidtermPractice {
      * Output: false (no contiguous split results in equal sums)
      */
     public static boolean canPartitionWithEqualSums(int[] arr) {
-        return false;
-    }
+        //return false;
+        public static boolean canPartionWithEqualsSums(int[] arr){
+            if (arr.length < 2){
+                return false; 
+            }
+            int totalSum = 0;
 
+            for (int i = 0; i < arr.length - 1; i++){
+                leftSum += arr[i];
+
+                int rightSum = totalSum - leftSum;
+                if (leftSum == rightSum){
+                    return true;
+                }
+                return false; 
+            }
+
+        }
+    }
 }
